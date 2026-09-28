@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Runtime data (keep the folders, ignore contents)
+data/cache/*
+data/research_sessions/*
+!data/cache/.gitkeep
+!data/research_sessions/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
